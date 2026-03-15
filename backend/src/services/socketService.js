@@ -23,7 +23,7 @@ function canAccessIssue(user, issue) {
 export function initSocket(server) {
   const io = new Server(server, {
     cors: {
-      origin: process.env.CLIENT_URL || 'https://habeshe-it-support-backend.onrender.com',
+      origin: process.env.CLIENT_URL || 'http://localhost:5173',
       credentials: true,
     },
   });
