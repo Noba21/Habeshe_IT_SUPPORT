@@ -8,7 +8,7 @@ export function SocketProvider({ children }) {
 
   useEffect(() => {
     const socketInstance = io(
-      import.meta.env.VITE_SOCKET_URL || "https://habeshe-it-support-backend.onrender.com",
+      import.meta.env.VITE_SOCKET_URL || "localhost:5000",
       {
         withCredentials: true
       }
