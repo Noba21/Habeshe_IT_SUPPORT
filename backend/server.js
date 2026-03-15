@@ -23,7 +23,7 @@ const server = http.createServer(app);
 initSocket(server);
 
 server.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on https://habeshe-it-support-backend.onrender.com:${PORT}`);
 });
 
 export default server;
